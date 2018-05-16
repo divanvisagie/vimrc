@@ -1,0 +1,4 @@
+neww 'vim'
+split-window -v
+resize-pane -D 21
+new-window 'mutt'
