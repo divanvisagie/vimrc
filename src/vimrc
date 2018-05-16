@@ -1,0 +1,15 @@
+" Colors
+colorscheme one-dark " Set the color scheme
+syntax enable        " Enable syntax processing
+
+" Tabs and Spaces
+set tabstop=4	     " number of visual spaces per tab 
+set softtabstop=4    " number of spaces in tab when editing
+
+set expandtab	     " turns tabs into spaces, so pressing tab makes 4 spaces
+
+" UI Config
+set number 			 " show line numbers
+set showcmd			 " show the command in the bottom bar
+set cursorline		 " highlight the current line you are on
+
