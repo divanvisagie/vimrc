@@ -21,7 +21,8 @@ hi Cursor guibg=#528bff ctermbg=69 gui=NONE cterm=NONE
 hi CursorColumn guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi CursorLine guibg=#2c323c ctermbg=236 gui=NONE cterm=NONE
 hi Directory guifg=#61afef ctermfg=75 gui=NONE cterm=NONE
-hi Normal guifg=#abb2bf ctermfg=249 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
+"hi Normal guifg=#abb2bf ctermfg=249 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
+hi Normal guifg=#abb2bf ctermfg=249 gui=NONE cterm=NONE
 
 
 " ===================================
