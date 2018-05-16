@@ -1,6 +1,8 @@
 " Colors
 colorscheme one-dark " Set the color scheme
 syntax enable        " Enable syntax processing
+highlight LineNr ctermfg=DarkGrey
+highlight LineNr guifg=#050505
 
 " Tabs and Spaces
 set tabstop=4	     " number of visual spaces per tab 
@@ -26,5 +28,6 @@ nnoremap <leader><space> :nohlsearch<CR>
 
 " Open NERTTree
 map <C-n> :NERDTreeToggle<CR> 
+
 
 
