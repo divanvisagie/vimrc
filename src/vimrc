@@ -12,4 +12,18 @@ set expandtab	     " turns tabs into spaces, so pressing tab makes 4 spaces
 set number 			 " show line numbers
 set showcmd			 " show the command in the bottom bar
 set cursorline		 " highlight the current line you are on
+filetype indent on   " load filetype-specific indent files
+set wildmenu         " visual autocomplete for command menus
+set lazyredraw       " redraw only when it needs to 
+set showmatch        " highlight matching brackets
+
+" Searching
+set incsearch        " search as characters are entered
+set hlsearch         " highlight matching search items
+
+" turn off search highlight when pressing space
+nnoremap <leader><space> :nohlsearch<CR>
+
+
+
 
