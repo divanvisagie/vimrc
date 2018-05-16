@@ -29,5 +29,5 @@ nnoremap <leader><space> :nohlsearch<CR>
 " Open NERTTree
 map <C-n> :NERDTreeToggle<CR> 
 
-
+set noeol            " without this the thing goes insane on linux and freezes
 
