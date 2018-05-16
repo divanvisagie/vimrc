@@ -24,6 +24,7 @@ set hlsearch         " highlight matching search items
 " turn off search highlight when pressing space
 nnoremap <leader><space> :nohlsearch<CR>
 
-
+" Open NERTTree
+map <C-n> :NERDTreeToggle<CR> 
 
 
